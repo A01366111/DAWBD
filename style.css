@@ -1,0 +1,61 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: #22C1DA;
+}
+
+article {
+    padding: 10px;
+    background-color: white;
+}
+
+#about{
+    border-style: solid;
+    text-align: center;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+ul.menu {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: black;
+}
+ul{
+    margin:20px;
+    padding:5px;
+}
+
+li.menu {
+    float: left;
+}
+
+li a {
+    padding: 12px 15px;
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+p.cotacto{
+    text-align: center;
+}
+
+/* Change the link color to #111 (black) on hover 
+li a:hover {
+    background-color: #111;
+}*/
+
