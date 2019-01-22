@@ -1,6 +1,9 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: #495467;
+}
 
 header {
     padding: 5px;
@@ -9,7 +12,6 @@ header {
     color: white;
     background-color: #22C1DA;
 }
-
 h2{
     text-align: center;
 }
