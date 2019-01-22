@@ -10,6 +10,10 @@ header {
     background-color: #22C1DA;
 }
 
+h2{
+    text-align: center;
+}
+
 article {
     padding: 10px;
     background-color: white;
@@ -18,7 +22,6 @@ article {
 }
 
 #about{
-    border-style: solid;
     text-align: center;
 }
 
