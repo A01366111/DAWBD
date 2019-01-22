@@ -13,6 +13,8 @@ header {
 article {
     padding: 10px;
     background-color: white;
+    margin: 0 auto;
+    max-width: 50em;
 }
 
 #about{
@@ -39,6 +41,10 @@ ul{
     padding:5px;
 }
 
+li{
+    padding: 5px;
+}
+
 li.menu {
     float: left;
 }
@@ -57,4 +63,6 @@ p.cotacto{
 li a:hover {
     background-color: #111;
 }
+
+
 
