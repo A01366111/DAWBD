@@ -10,3 +10,8 @@ for (i = 1; i <= num1; i++) {
 }
 
 //Problema 2
+var resultado = prompt("Dame un número del 0 al 40 para adivinar la suma");
+    var x1 = Math.floor((Math.random()*20)+1);
+    var x2 = Math.floor((Math.random() * 20) + 1);
+var respuesta = x1 + x2;
+    console.log("El resultado fue "+respuesta+" Tu nos diste "+ resultado);
