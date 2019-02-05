@@ -16,8 +16,6 @@ var resultado = prompt("Dame un número del 0 al 40 para adivinar la suma");
 var respuesta = x1 + x2;
     console.log("El resultado fue "+respuesta+" Tu nos diste "+ resultado);
 
-//Problema 4
-
 //Problema 5 Resultado en consola
 var inverso = [1,9,9,7];
 console.log('inverso: ', inverso);
