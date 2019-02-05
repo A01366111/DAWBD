@@ -15,3 +15,19 @@ var resultado = prompt("Dame un número del 0 al 40 para adivinar la suma");
     var x2 = Math.floor((Math.random() * 20) + 1);
 var respuesta = x1 + x2;
     console.log("El resultado fue "+respuesta+" Tu nos diste "+ resultado);
+
+//Problema 4
+
+//Problema 5
+
+//Problema 6
+alert("¿Te alcanza para un gansito del oxxo?")
+var dinero = prompt("¿Cuánto dinero tienes?");
+
+if (dinero <= 0) {
+    alert("Thank you. Have a nice day!");
+} else if (dinero > 12) {
+    alert("Si te alcanza! :D Cuesta $12 y tienes $" + dinero + ".");
+} else if (dinero <= 11) {
+    alert("No te alcanza :( ")
+}
