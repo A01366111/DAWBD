@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<title>Laboratorio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Laboratorio 5</h1>
+    </header>
+
+    <section>
+        <nav>
+            <ul class="menu">
+                <li class="menu"><a href="#lab1">Lab1</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">UserName</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </article>
+
+    <article>
+        <h1>Tienda</h1>
+        <p>Juegos de video</p>
+    </article>
+
+    <table style="width:80%">
+        <tr>
+            <th>
+                <img src="images/AlanWake.jpg" width="400px" height="550px">
+            </th>
+            <td>
+                <h2>Alan Wake</h2>
+                <p>Precio: $ 40.02</p>
+                <ul>
+                    <li>1 Plater</li>
+                    <li>Alan Wake es un videojuego de acción-aventura y terror psicológico desarrollado por Remedy Entertainment y publicado por Microsoft Studios, lanzado para Xbox 360 y Microsoft Windows.</li>
+                </ul>
+                <p>Qty: <input type="number" id="cantidad" min="0" max="100"> </p>
+
+                <p><button type="password" onclick="purchaseP()">Buy Now</button></p>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <img src="images/Bioshock.jpg" width="400px" height="550px">
+            </th>
+            <td>
+                <h2>Bioshock</h2>
+                <p>list price: $ 29.99</p>
+                <ul>
+                    <li>1 Player</li>
+                    <li>BioShock Infinite es un videojuego de disparos en primera persona y la tercera entrega de la franquicia BioShock, desarrollado por Irrational Games y distribuido por 2K Games,</li>
+                </ul>
+                <p>Qty: <input type="number" id="cantidad1" min="0" max="100"> </p>
+                <p><button type="password" onclick="purchaseLC()">Buy Now</button></p>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <img src="images/Hellblade.jpg" width="400px" height="550px">
+            </th>
+            <td>
+                <h2>HellBlade Senua's Sacrifice</h2>
+                <p>list price: $ 19.99</p>
+                <ul>
+                    <li>1 Player</li>
+                    <li>Hellblade: Senua's Sacrifice es un videojuego de acción-aventura y terror psicológico, desarrollado y publicado por Ninja Theory, lanzado en todo el mundo de forma independiente para las plataformas PlayStation 4 y Microsoft Windows el 8 de agosto de 2017.</li>
+                </ul>
+                <p>Qty: <input type="number" id="cantidad2" min="0" max="100"> </p>
+                <p><button type="password" onclick="purchaseSG()">Buy Now</button></p>
+            </td>
+        </tr>
+    </section>
+    <footer>
+        <p>Hecho con <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> </p>
+    </footer>
+    <script type="text/javascript" src="js/lab5.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
