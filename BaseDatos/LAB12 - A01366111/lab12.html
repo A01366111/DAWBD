@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Laboratorio</title>
+</head>
+<body>
+<header>
+    <h1>Laboratorio</h1>
+</header>
+
+<section>
+    <nav>
+        <ul class="menu">
+            <li class="menu"><a href="#lab1">Sobre mi</a></li>
+            <li class="menu"><a href="#cuestionario">Definiciones</a></li>
+            <li class="menu"><a href="#referencias">Referencias</a></li>
+            <li class="menu"><a href="basedatos.html" target="_blank">Base Datos</a></li>
+            <li class="menu"><a href="#preguntas">Lab1,2</a></li>
+            <li class="menu"><a href="lab4.html" target="_blank">Lab4</a></li>
+            <li class="menu"><a href="lab5.html" target="_blank">Lab5</a></li>
+            <li class="menu"><a href="lab6.html" target="_blank">Lab6</a></li>
+        </ul>
+    </nav>
+
+        <hr>
+
+        <hr>
+
+        <a name="preguntas"> <b>Cuestionario</b> </a>
+        <hr>
+            <a name="Laboratorio2"> <h2>Laboratorio 2</h2> </a>
+        <article>
+            <ul>
+                <li><strong>Verifica si la tabla de materiales tiene definido algún constraint (restricción): <br>
+                sp_helpconstraint materiales <br> ¿Qué información muestra esta consulta?</strong> </li>
+                <p>Me muestra los constraints que tiene la tabla, en este caso me muestra la llave primaria </p>
+                <li> <strong>¿Qué sentencias utilizaste para definir las llaves primarias?</strong> </li>
+                <p>ALTER TABLE Proyectos add Constraint llaveProyectos PRIMARY KEY (Numero) <br>ALTER TABLE Proveedores add Constraint llaveProveedores PRIMARY KEY (RFC)</p>
+                
+                
+            </ul>
+
+        </article>
+    </article>
+</section>
+
+<footer>
+    <p>Hecho con <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> </p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #495467;
+}
+
+header {
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: #22C1DA;
+}
+h2{
+    text-align: center;
+}
+
+article {
+    padding: 10px;
+    background-color: white;
+    margin: 0 auto;
+    max-width: 60em;
+}
+
+#about{
+    text-align: center;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+ul.menu {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: black;
+}
+ul{
+    margin:20px;
+    padding:5px;
+}
+
+li{
+    padding: 5px;
+}
+
+li.menu {
+    float: left;
+}
+
+li a {
+    padding: 12px 15px;
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+p.cotacto{
+    text-align: justify;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+
+
+
+
