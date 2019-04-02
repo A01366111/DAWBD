@@ -82,18 +82,3 @@ BULK INSERT a1366111.a1366111.[Entregan]
   SELECT * 
   FROM Materiales
  
- SELECT DISTINCT Descripcion
- FROM Materiales M, Proyectos P
- WHERE Denominacion = 'Az'
-
-SELECT DISTINCT SUM(E.Cantidad) as 'Total de unidades'
-FROM Proyectos P, Entregan E
-WHERE P.Numero = E.Numero AND (E.Fecha BETWEEN '01/01/2010' AND '31/12/2010') 
-GROUP BY P.Denominacion
-order by 'Total de unidades' desc
-
-Select Clave, Descripcion
-From Materiales as M
-where M.clave 
-not in(Select distinct E.Clave
-from  Entregan as E)
