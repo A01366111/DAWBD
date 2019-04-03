@@ -1,0 +1,30 @@
+<div class="container">
+	<h2>Agregar Zombie</h2>
+	<form class="col s12" action="#" method="post">
+		Nombre: <input type="text" name="nombre"> <br/>
+		Apellido: <input type="text" name="apellido"> <br/>
+	</form>
+	      <div class="row">
+        <div class="input-field col s12">
+            <select>
+              <option value="" disabled selected>Selecciona una opción</option>
+              <option value="1">Infección</option>
+              <option value="2">Coma</option>
+              <option value="3">Transformación</option>
+              <option value="4">Completamente Muerto</option>
+            </select>
+            <label>¿Cuál es el estado?</label>
+        </div>
+      </div>
+      	<input type="submit" name="InsertarZombie" value="Agregar Zombie">
+	<br/>
+	<h2>Editar Zombie</h2>
+	<form action="#" method="post">
+		Nombre: <input type="text" name="nombreModificar"> <br/>
+		Estado: <input type="text" name="estadoModificar"> <br/>
+		<input type="submit" name="EditarZombie" value="Editar Zombie">
+	</form>
+	
+	<h2> Total de Zombies</h2>
+	<p>Número total de zombies: <span> <?= $zombiesTotales ?> </span></p>
+</div>

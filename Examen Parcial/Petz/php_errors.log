@@ -1,0 +1,734 @@
+[02-Apr-2019 22:44:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.zombies' doesn't exist' in /home/ubuntu/workspace/Petz/parcial2/Conex.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/Petz/parcial2/Conex.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/Petz/parcial2/Utils.php(6): Conex::_query('SELECT COUNT(*)...')
+#2 /home/ubuntu/workspace/Petz/parcial2/index.php(15): estadisticas()
+#3 {main}
+  thrown in /home/ubuntu/workspace/Petz/parcial2/Conex.php on line 44
+[02-Apr-2019 22:44:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.zombies' doesn't exist' in /home/ubuntu/workspace/Petz/parcial2/Conex.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/Petz/parcial2/Conex.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/Petz/parcial2/Utils.php(6): Conex::_query('SELECT COUNT(*)...')
+#2 /home/ubuntu/workspace/Petz/parcial2/index.php(15): estadisticas()
+#3 {main}
+  thrown in /home/ubuntu/workspace/Petz/parcial2/Conex.php on line 44
+[02-Apr-2019 22:44:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.estados' doesn't exist' in /home/ubuntu/workspace/Petz/parcial2/Conex.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/Petz/parcial2/Conex.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/Petz/parcial2/Utils.php(33): Conex::_query('SELECT * FROM e...')
+#2 /home/ubuntu/workspace/Petz/parcial2/index.php(27): select()
+#3 {main}
+  thrown in /home/ubuntu/workspace/Petz/parcial2/Conex.php on line 44
+[02-Apr-2019 22:44:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.zombies' doesn't exist' in /home/ubuntu/workspace/Petz/parcial2/Conex.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/Petz/parcial2/Conex.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/Petz/parcial2/Utils.php(19): Conex::_query('SELECT zombies....')
+#2 /home/ubuntu/workspace/Petz/parcial2/index.php(21): listZom()
+#3 {main}
+  thrown in /home/ubuntu/workspace/Petz/parcial2/Conex.php on line 44
+[02-Apr-2019 22:44:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.zombies' doesn't exist' in /home/ubuntu/workspace/Petz/parcial2/Conex.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/Petz/parcial2/Conex.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/Petz/parcial2/Utils.php(6): Conex::_query('SELECT COUNT(*)...')
+#2 /home/ubuntu/workspace/Petz/parcial2/index.php(15): estadisticas()
+#3 {main}
+  thrown in /home/ubuntu/workspace/Petz/parcial2/Conex.php on line 44
+[02-Apr-2019 22:44:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.estados' doesn't exist' in /home/ubuntu/workspace/Petz/parcial2/Conex.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/Petz/parcial2/Conex.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/Petz/parcial2/Utils.php(33): Conex::_query('SELECT * FROM e...')
+#2 /home/ubuntu/workspace/Petz/parcial2/index.php(27): select()
+#3 {main}
+  thrown in /home/ubuntu/workspace/Petz/parcial2/Conex.php on line 44
+[02-Apr-2019 22:44:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.zombies' doesn't exist' in /home/ubuntu/workspace/Petz/parcial2/Conex.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/Petz/parcial2/Conex.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/Petz/parcial2/Utils.php(19): Conex::_query('SELECT zombies....')
+#2 /home/ubuntu/workspace/Petz/parcial2/index.php(21): listZom()
+#3 {main}
+  thrown in /home/ubuntu/workspace/Petz/parcial2/Conex.php on line 44
+[02-Apr-2019 22:44:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.zombies' doesn't exist' in /home/ubuntu/workspace/Petz/parcial2/Conex.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/Petz/parcial2/Conex.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/Petz/parcial2/Utils.php(6): Conex::_query('SELECT COUNT(*)...')
+#2 /home/ubuntu/workspace/Petz/parcial2/index.php(15): estadisticas()
+#3 {main}
+  thrown in /home/ubuntu/workspace/Petz/parcial2/Conex.php on line 44
+[02-Apr-2019 22:47:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/ExamenParcial/index.php on line 84
+[02-Apr-2019 22:47:32 UTC] PHP Stack trace:
+[02-Apr-2019 22:47:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/ExamenParcial/index.php:0
+[02-Apr-2019 22:47:32 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/Petz/ExamenParcial/index.php:84
+[02-Apr-2019 22:47:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/ExamenParcial/index.php on line 85
+[02-Apr-2019 22:47:32 UTC] PHP Stack trace:
+[02-Apr-2019 22:47:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/ExamenParcial/index.php:0
+[02-Apr-2019 22:47:32 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/Petz/ExamenParcial/index.php:85
+[02-Apr-2019 22:47:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/ExamenParcial/index.php on line 104
+[02-Apr-2019 22:47:32 UTC] PHP Stack trace:
+[02-Apr-2019 22:47:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/ExamenParcial/index.php:0
+[02-Apr-2019 22:47:32 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/Petz/ExamenParcial/index.php:104
+[02-Apr-2019 22:47:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/ExamenParcial/index.php on line 123
+[02-Apr-2019 22:47:32 UTC] PHP Stack trace:
+[02-Apr-2019 22:47:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/ExamenParcial/index.php:0
+[02-Apr-2019 22:47:32 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/Petz/ExamenParcial/index.php:123
+[02-Apr-2019 22:47:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/ExamenParcial/index.php on line 142
+[02-Apr-2019 22:47:32 UTC] PHP Stack trace:
+[02-Apr-2019 22:47:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/ExamenParcial/index.php:0
+[02-Apr-2019 22:47:32 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/Petz/ExamenParcial/index.php:142
+[02-Apr-2019 22:47:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/ExamenParcial/index.php on line 161
+[02-Apr-2019 22:47:32 UTC] PHP Stack trace:
+[02-Apr-2019 22:47:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/ExamenParcial/index.php:0
+[02-Apr-2019 22:47:32 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/Petz/ExamenParcial/index.php:161
+[02-Apr-2019 23:23:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 50
+[02-Apr-2019 23:23:15 UTC] PHP Stack trace:
+[02-Apr-2019 23:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:23:15 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[02-Apr-2019 23:23:15 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:50
+[02-Apr-2019 23:23:15 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 54
+[02-Apr-2019 23:23:15 UTC] PHP Stack trace:
+[02-Apr-2019 23:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:23:15 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[02-Apr-2019 23:23:15 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:54
+[02-Apr-2019 23:23:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 63
+[02-Apr-2019 23:23:15 UTC] PHP Stack trace:
+[02-Apr-2019 23:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:23:15 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[02-Apr-2019 23:23:15 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:63
+[02-Apr-2019 23:23:15 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 67
+[02-Apr-2019 23:23:15 UTC] PHP Stack trace:
+[02-Apr-2019 23:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:23:15 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[02-Apr-2019 23:23:15 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:67
+[02-Apr-2019 23:23:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 76
+[02-Apr-2019 23:23:15 UTC] PHP Stack trace:
+[02-Apr-2019 23:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:23:15 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[02-Apr-2019 23:23:15 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:76
+[02-Apr-2019 23:23:15 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 80
+[02-Apr-2019 23:23:15 UTC] PHP Stack trace:
+[02-Apr-2019 23:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:23:15 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[02-Apr-2019 23:23:15 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:80
+[02-Apr-2019 23:23:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 113
+[02-Apr-2019 23:23:15 UTC] PHP Stack trace:
+[02-Apr-2019 23:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:23:15 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[02-Apr-2019 23:23:15 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:113
+[02-Apr-2019 23:23:15 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 116
+[02-Apr-2019 23:23:15 UTC] PHP Stack trace:
+[02-Apr-2019 23:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:23:15 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[02-Apr-2019 23:23:15 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:116
+[02-Apr-2019 23:23:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 142
+[02-Apr-2019 23:23:15 UTC] PHP Stack trace:
+[02-Apr-2019 23:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:23:15 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[02-Apr-2019 23:23:15 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:142
+[02-Apr-2019 23:23:15 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 145
+[02-Apr-2019 23:23:15 UTC] PHP Stack trace:
+[02-Apr-2019 23:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:23:15 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[02-Apr-2019 23:23:15 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:145
+[02-Apr-2019 23:23:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 128
+[02-Apr-2019 23:23:15 UTC] PHP Stack trace:
+[02-Apr-2019 23:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:23:15 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[02-Apr-2019 23:23:15 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:128
+[02-Apr-2019 23:23:15 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 134
+[02-Apr-2019 23:23:15 UTC] PHP Stack trace:
+[02-Apr-2019 23:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:23:15 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[02-Apr-2019 23:23:15 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:134
+[02-Apr-2019 23:23:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 154
+[02-Apr-2019 23:23:15 UTC] PHP Stack trace:
+[02-Apr-2019 23:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:23:15 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[02-Apr-2019 23:23:15 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:154
+[02-Apr-2019 23:23:15 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 157
+[02-Apr-2019 23:23:15 UTC] PHP Stack trace:
+[02-Apr-2019 23:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:23:15 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[02-Apr-2019 23:23:15 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:157
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 50
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:50
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 54
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:54
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 63
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:63
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 67
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:67
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 76
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:76
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 80
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:80
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 113
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:113
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 116
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:116
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 142
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:142
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 145
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:145
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 128
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:128
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 134
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:134
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 154
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:154
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 157
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:157
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 24
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. agregar_zombi() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:14
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:24
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 27
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. agregar_zombi() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:14
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:27
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 31
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. agregar_zombi() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:14
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:31
+[02-Apr-2019 23:24:25 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 34
+[02-Apr-2019 23:24:25 UTC] PHP Stack trace:
+[02-Apr-2019 23:24:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:24:25 UTC] PHP   2. agregar_zombi() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:14
+[02-Apr-2019 23:24:25 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:34
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 50
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:50
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 54
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:54
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 63
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:63
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 67
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:67
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 76
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:76
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 80
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:80
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 113
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:113
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 116
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:116
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 142
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:142
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 145
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:145
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 128
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:128
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 134
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:134
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 154
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:154
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 157
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:157
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 24
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. agregar_zombi() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:14
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:24
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 27
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. agregar_zombi() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:14
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:27
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 31
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. agregar_zombi() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:14
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:31
+[02-Apr-2019 23:32:36 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 34
+[02-Apr-2019 23:32:36 UTC] PHP Stack trace:
+[02-Apr-2019 23:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:32:36 UTC] PHP   2. agregar_zombi() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:14
+[02-Apr-2019 23:32:36 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:34
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 50
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:50
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 54
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:54
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 63
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:63
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 67
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:67
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 76
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:76
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 80
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:80
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 113
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:113
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 116
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:116
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 142
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:142
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 145
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:145
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 128
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:128
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 134
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:134
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 154
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:154
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 157
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:157
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 24
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. agregar_zombi() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:14
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:24
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 27
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. agregar_zombi() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:14
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:27
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 31
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. agregar_zombi() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:14
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:31
+[02-Apr-2019 23:33:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 34
+[02-Apr-2019 23:33:59 UTC] PHP Stack trace:
+[02-Apr-2019 23:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[02-Apr-2019 23:33:59 UTC] PHP   2. agregar_zombi() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:14
+[02-Apr-2019 23:33:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:34
+[02-Apr-2019 23:46:39 UTC] PHP Parse error:  syntax error, unexpected 'Y' (T_STRING) in /home/ubuntu/workspace/Petz/ExamenParcial/utils.php on line 24
+[02-Apr-2019 23:46:39 UTC] PHP Stack trace:
+[02-Apr-2019 23:46:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/ExamenParcial/index.php:0
+[02-Apr-2019 23:48:01 UTC] PHP Parse error:  syntax error, unexpected 'UPDATE' (T_STRING) in /home/ubuntu/workspace/Petz/ExamenParcial/utils.php on line 41
+[02-Apr-2019 23:48:01 UTC] PHP Stack trace:
+[02-Apr-2019 23:48:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/ExamenParcial/index.php:0
+[03-Apr-2019 00:08:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 50
+[03-Apr-2019 00:08:59 UTC] PHP Stack trace:
+[03-Apr-2019 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:08:59 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[03-Apr-2019 00:08:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:50
+[03-Apr-2019 00:08:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 54
+[03-Apr-2019 00:08:59 UTC] PHP Stack trace:
+[03-Apr-2019 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:08:59 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[03-Apr-2019 00:08:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:54
+[03-Apr-2019 00:08:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 63
+[03-Apr-2019 00:08:59 UTC] PHP Stack trace:
+[03-Apr-2019 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:08:59 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[03-Apr-2019 00:08:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:63
+[03-Apr-2019 00:08:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 67
+[03-Apr-2019 00:08:59 UTC] PHP Stack trace:
+[03-Apr-2019 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:08:59 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[03-Apr-2019 00:08:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:67
+[03-Apr-2019 00:08:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 76
+[03-Apr-2019 00:08:59 UTC] PHP Stack trace:
+[03-Apr-2019 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:08:59 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[03-Apr-2019 00:08:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:76
+[03-Apr-2019 00:08:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 80
+[03-Apr-2019 00:08:59 UTC] PHP Stack trace:
+[03-Apr-2019 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:08:59 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[03-Apr-2019 00:08:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:80
+[03-Apr-2019 00:08:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 113
+[03-Apr-2019 00:08:59 UTC] PHP Stack trace:
+[03-Apr-2019 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:08:59 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[03-Apr-2019 00:08:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:113
+[03-Apr-2019 00:08:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 116
+[03-Apr-2019 00:08:59 UTC] PHP Stack trace:
+[03-Apr-2019 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:08:59 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[03-Apr-2019 00:08:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:116
+[03-Apr-2019 00:08:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 142
+[03-Apr-2019 00:08:59 UTC] PHP Stack trace:
+[03-Apr-2019 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:08:59 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[03-Apr-2019 00:08:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:142
+[03-Apr-2019 00:08:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 145
+[03-Apr-2019 00:08:59 UTC] PHP Stack trace:
+[03-Apr-2019 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:08:59 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[03-Apr-2019 00:08:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:145
+[03-Apr-2019 00:08:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 128
+[03-Apr-2019 00:08:59 UTC] PHP Stack trace:
+[03-Apr-2019 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:08:59 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[03-Apr-2019 00:08:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:128
+[03-Apr-2019 00:08:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 134
+[03-Apr-2019 00:08:59 UTC] PHP Stack trace:
+[03-Apr-2019 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:08:59 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[03-Apr-2019 00:08:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:134
+[03-Apr-2019 00:08:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 154
+[03-Apr-2019 00:08:59 UTC] PHP Stack trace:
+[03-Apr-2019 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:08:59 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[03-Apr-2019 00:08:59 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:154
+[03-Apr-2019 00:08:59 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 157
+[03-Apr-2019 00:08:59 UTC] PHP Stack trace:
+[03-Apr-2019 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:08:59 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[03-Apr-2019 00:08:59 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:157
+[03-Apr-2019 00:11:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 50
+[03-Apr-2019 00:11:01 UTC] PHP Stack trace:
+[03-Apr-2019 00:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:11:01 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[03-Apr-2019 00:11:01 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:50
+[03-Apr-2019 00:11:01 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 54
+[03-Apr-2019 00:11:01 UTC] PHP Stack trace:
+[03-Apr-2019 00:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:11:01 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[03-Apr-2019 00:11:01 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:54
+[03-Apr-2019 00:11:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 63
+[03-Apr-2019 00:11:01 UTC] PHP Stack trace:
+[03-Apr-2019 00:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:11:01 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[03-Apr-2019 00:11:01 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:63
+[03-Apr-2019 00:11:01 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 67
+[03-Apr-2019 00:11:01 UTC] PHP Stack trace:
+[03-Apr-2019 00:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:11:01 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[03-Apr-2019 00:11:01 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:67
+[03-Apr-2019 00:11:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 76
+[03-Apr-2019 00:11:01 UTC] PHP Stack trace:
+[03-Apr-2019 00:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:11:01 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[03-Apr-2019 00:11:01 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:76
+[03-Apr-2019 00:11:01 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 80
+[03-Apr-2019 00:11:01 UTC] PHP Stack trace:
+[03-Apr-2019 00:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:11:01 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[03-Apr-2019 00:11:01 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:80
+[03-Apr-2019 00:11:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 113
+[03-Apr-2019 00:11:01 UTC] PHP Stack trace:
+[03-Apr-2019 00:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:11:01 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[03-Apr-2019 00:11:01 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:113
+[03-Apr-2019 00:11:01 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 116
+[03-Apr-2019 00:11:01 UTC] PHP Stack trace:
+[03-Apr-2019 00:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:11:01 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[03-Apr-2019 00:11:01 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:116
+[03-Apr-2019 00:11:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 142
+[03-Apr-2019 00:11:01 UTC] PHP Stack trace:
+[03-Apr-2019 00:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:11:01 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[03-Apr-2019 00:11:01 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:142
+[03-Apr-2019 00:11:01 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 145
+[03-Apr-2019 00:11:01 UTC] PHP Stack trace:
+[03-Apr-2019 00:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:11:01 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[03-Apr-2019 00:11:01 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:145
+[03-Apr-2019 00:11:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 128
+[03-Apr-2019 00:11:01 UTC] PHP Stack trace:
+[03-Apr-2019 00:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:11:01 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[03-Apr-2019 00:11:01 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:128
+[03-Apr-2019 00:11:01 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 134
+[03-Apr-2019 00:11:01 UTC] PHP Stack trace:
+[03-Apr-2019 00:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:11:01 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[03-Apr-2019 00:11:01 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:134
+[03-Apr-2019 00:11:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 154
+[03-Apr-2019 00:11:01 UTC] PHP Stack trace:
+[03-Apr-2019 00:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:11:01 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[03-Apr-2019 00:11:01 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:154
+[03-Apr-2019 00:11:01 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 157
+[03-Apr-2019 00:11:01 UTC] PHP Stack trace:
+[03-Apr-2019 00:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:11:01 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[03-Apr-2019 00:11:01 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:157
+[03-Apr-2019 00:46:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.zombies' doesn't exist' in /home/ubuntu/workspace/Petz/parcial2/Conex.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/Petz/parcial2/Conex.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/Petz/parcial2/Utils.php(6): Conex::_query('SELECT COUNT(*)...')
+#2 /home/ubuntu/workspace/Petz/parcial2/index.php(15): estadisticas()
+#3 {main}
+  thrown in /home/ubuntu/workspace/Petz/parcial2/Conex.php on line 44
+[03-Apr-2019 00:46:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.zombies' doesn't exist' in /home/ubuntu/workspace/Petz/parcial2/Conex.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/Petz/parcial2/Conex.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/Petz/parcial2/Utils.php(6): Conex::_query('SELECT COUNT(*)...')
+#2 /home/ubuntu/workspace/Petz/parcial2/index.php(15): estadisticas()
+#3 {main}
+  thrown in /home/ubuntu/workspace/Petz/parcial2/Conex.php on line 44
+[03-Apr-2019 00:46:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.estados' doesn't exist' in /home/ubuntu/workspace/Petz/parcial2/Conex.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/Petz/parcial2/Conex.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/Petz/parcial2/Utils.php(33): Conex::_query('SELECT * FROM e...')
+#2 /home/ubuntu/workspace/Petz/parcial2/index.php(27): select()
+#3 {main}
+  thrown in /home/ubuntu/workspace/Petz/parcial2/Conex.php on line 44
+[03-Apr-2019 00:46:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.zombies' doesn't exist' in /home/ubuntu/workspace/Petz/parcial2/Conex.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/Petz/parcial2/Conex.php(44): PDOStatement->execute()
+#1 /home/ubuntu/workspace/Petz/parcial2/Utils.php(19): Conex::_query('SELECT zombies....')
+#2 /home/ubuntu/workspace/Petz/parcial2/index.php(21): listZom()
+#3 {main}
+  thrown in /home/ubuntu/workspace/Petz/parcial2/Conex.php on line 44
+[03-Apr-2019 00:59:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 50
+[03-Apr-2019 00:59:46 UTC] PHP Stack trace:
+[03-Apr-2019 00:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:59:46 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[03-Apr-2019 00:59:46 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:50
+[03-Apr-2019 00:59:46 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 54
+[03-Apr-2019 00:59:46 UTC] PHP Stack trace:
+[03-Apr-2019 00:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:59:46 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[03-Apr-2019 00:59:46 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:54
+[03-Apr-2019 00:59:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 63
+[03-Apr-2019 00:59:46 UTC] PHP Stack trace:
+[03-Apr-2019 00:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:59:46 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[03-Apr-2019 00:59:46 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:63
+[03-Apr-2019 00:59:46 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 67
+[03-Apr-2019 00:59:46 UTC] PHP Stack trace:
+[03-Apr-2019 00:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:59:46 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[03-Apr-2019 00:59:46 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:67
+[03-Apr-2019 00:59:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 76
+[03-Apr-2019 00:59:46 UTC] PHP Stack trace:
+[03-Apr-2019 00:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:59:46 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[03-Apr-2019 00:59:46 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:76
+[03-Apr-2019 00:59:46 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 80
+[03-Apr-2019 00:59:46 UTC] PHP Stack trace:
+[03-Apr-2019 00:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:59:46 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[03-Apr-2019 00:59:46 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:80
+[03-Apr-2019 00:59:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 113
+[03-Apr-2019 00:59:46 UTC] PHP Stack trace:
+[03-Apr-2019 00:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:59:46 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[03-Apr-2019 00:59:46 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:113
+[03-Apr-2019 00:59:46 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 116
+[03-Apr-2019 00:59:46 UTC] PHP Stack trace:
+[03-Apr-2019 00:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:59:46 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[03-Apr-2019 00:59:46 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:116
+[03-Apr-2019 00:59:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 142
+[03-Apr-2019 00:59:46 UTC] PHP Stack trace:
+[03-Apr-2019 00:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:59:46 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[03-Apr-2019 00:59:46 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:142
+[03-Apr-2019 00:59:46 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 145
+[03-Apr-2019 00:59:46 UTC] PHP Stack trace:
+[03-Apr-2019 00:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:59:46 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[03-Apr-2019 00:59:46 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:145
+[03-Apr-2019 00:59:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 128
+[03-Apr-2019 00:59:46 UTC] PHP Stack trace:
+[03-Apr-2019 00:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:59:46 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[03-Apr-2019 00:59:46 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:128
+[03-Apr-2019 00:59:46 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 134
+[03-Apr-2019 00:59:46 UTC] PHP Stack trace:
+[03-Apr-2019 00:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:59:46 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[03-Apr-2019 00:59:46 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:134
+[03-Apr-2019 00:59:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 154
+[03-Apr-2019 00:59:46 UTC] PHP Stack trace:
+[03-Apr-2019 00:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:59:46 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[03-Apr-2019 00:59:46 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:154
+[03-Apr-2019 00:59:46 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 157
+[03-Apr-2019 00:59:46 UTC] PHP Stack trace:
+[03-Apr-2019 00:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 00:59:46 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[03-Apr-2019 00:59:46 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:157
+[03-Apr-2019 01:09:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 50
+[03-Apr-2019 01:09:05 UTC] PHP Stack trace:
+[03-Apr-2019 01:09:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 01:09:05 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[03-Apr-2019 01:09:05 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:50
+[03-Apr-2019 01:09:05 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 54
+[03-Apr-2019 01:09:05 UTC] PHP Stack trace:
+[03-Apr-2019 01:09:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 01:09:05 UTC] PHP   2. consultar_estados() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:4
+[03-Apr-2019 01:09:05 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:54
+[03-Apr-2019 01:09:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 63
+[03-Apr-2019 01:09:05 UTC] PHP Stack trace:
+[03-Apr-2019 01:09:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 01:09:05 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[03-Apr-2019 01:09:05 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:63
+[03-Apr-2019 01:09:05 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 67
+[03-Apr-2019 01:09:05 UTC] PHP Stack trace:
+[03-Apr-2019 01:09:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 01:09:05 UTC] PHP   2. consultar_estadosc() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:5
+[03-Apr-2019 01:09:05 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:67
+[03-Apr-2019 01:09:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 76
+[03-Apr-2019 01:09:05 UTC] PHP Stack trace:
+[03-Apr-2019 01:09:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 01:09:05 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[03-Apr-2019 01:09:05 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:76
+[03-Apr-2019 01:09:05 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 80
+[03-Apr-2019 01:09:05 UTC] PHP Stack trace:
+[03-Apr-2019 01:09:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 01:09:05 UTC] PHP   2. consultar_zombis() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:6
+[03-Apr-2019 01:09:05 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:80
+[03-Apr-2019 01:09:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 113
+[03-Apr-2019 01:09:05 UTC] PHP Stack trace:
+[03-Apr-2019 01:09:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 01:09:05 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[03-Apr-2019 01:09:05 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:113
+[03-Apr-2019 01:09:05 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 116
+[03-Apr-2019 01:09:05 UTC] PHP Stack trace:
+[03-Apr-2019 01:09:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 01:09:05 UTC] PHP   2. consulta1_1() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:7
+[03-Apr-2019 01:09:05 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:116
+[03-Apr-2019 01:09:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 142
+[03-Apr-2019 01:09:05 UTC] PHP Stack trace:
+[03-Apr-2019 01:09:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 01:09:05 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[03-Apr-2019 01:09:05 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:142
+[03-Apr-2019 01:09:05 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 145
+[03-Apr-2019 01:09:05 UTC] PHP Stack trace:
+[03-Apr-2019 01:09:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 01:09:05 UTC] PHP   2. consulta1_3() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:8
+[03-Apr-2019 01:09:05 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:145
+[03-Apr-2019 01:09:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 128
+[03-Apr-2019 01:09:06 UTC] PHP Stack trace:
+[03-Apr-2019 01:09:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 01:09:06 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[03-Apr-2019 01:09:06 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:128
+[03-Apr-2019 01:09:06 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 134
+[03-Apr-2019 01:09:06 UTC] PHP Stack trace:
+[03-Apr-2019 01:09:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 01:09:06 UTC] PHP   2. consulta1_2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:9
+[03-Apr-2019 01:09:06 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:134
+[03-Apr-2019 01:09:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 154
+[03-Apr-2019 01:09:06 UTC] PHP Stack trace:
+[03-Apr-2019 01:09:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 01:09:06 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[03-Apr-2019 01:09:06 UTC] PHP   3. mysqli_fetch_array() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:154
+[03-Apr-2019 01:09:06 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Petz/Examen parcial 2/model.php on line 157
+[03-Apr-2019 01:09:06 UTC] PHP Stack trace:
+[03-Apr-2019 01:09:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:0
+[03-Apr-2019 01:09:06 UTC] PHP   2. consulta2() /home/ubuntu/workspace/Petz/Examen parcial 2/formulario_controller.php:10
+[03-Apr-2019 01:09:06 UTC] PHP   3. mysqli_free_result() /home/ubuntu/workspace/Petz/Examen parcial 2/model.php:157

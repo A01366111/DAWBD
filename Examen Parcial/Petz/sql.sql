@@ -1,0 +1,10 @@
+INSERT INTO `c9`.`Zombie` (`Nombre`, `Apellido`, `Estado`, `Fecha`) VALUES ('Javier', 'Iñiguez', 'Coma', CURRENT_TIMESTAMP);
+INSERT INTO `c9`.`Zombie` (`Nombre`, `Apellido`, `Estado`, `Fecha`) VALUES ('Hugo', 'Azpe', 'Coma', CURRENT_TIMESTAMP);
+INSERT INTO `c9`.`Zombie` (`Nombre`, `Apellido`, `Estado`, `Fecha`) VALUES ('Andre', 'Perez', 'Coma', CURRENT_TIMESTAMP);
+INSERT INTO `c9`.`Zombie` (`Nombre`, `Apellido`, `Estado`, `Fecha`) VALUES ('Alexis', 'Aranda', 'Coma', CURRENT_TIMESTAMP);
+INSERT INTO `c9`.`Zombie` (`Nombre`, `Apellido`, `Estado`, `Fecha`) VALUES ('Daniel', 'Aranda', 'Coma', CURRENT_TIMESTAMP);
+INSERT INTO `c9`.`Zombie` (`Nombre`, `Apellido`, `Estado`, `Fecha`) VALUES ('Manuel', 'Flores', 'Coma', CURRENT_TIMESTAMP);
+INSERT INTO `c9`.`Zombie` (`Nombre`, `Apellido`, `Estado`, `Fecha`) VALUES ('Ricardo', 'Pedraza', 'Coma', CURRENT_TIMESTAMP);
+INSERT INTO `c9`.`Zombie` (`Nombre`, `Apellido`, `Estado`, `Fecha`) VALUES ('Pablo', 'Gonzalez', 'Coma', CURRENT_TIMESTAMP);
+INSERT INTO `c9`.`Zombie` (`Nombre`, `Apellido`, `Estado`, `Fecha`) VALUES ('Diego', 'Gonzalez', 'Coma', CURRENT_TIMESTAMP);
+INSERT INTO `c9`.`Zombie` (`Nombre`, `Apellido`, `Estado`, `Fecha`) VALUES ('Javier', 'Iñiguez', 'Coma', CURRENT_TIMESTAMP);
